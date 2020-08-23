@@ -9,6 +9,10 @@ Runtime requirements:
 - Python 3
 - Chrome with installed Tampermonkey extension and disabled web security (--disable-web-security) to allow Cross-Origin-Requests.
 
+`mkdir /Users/wangchao/Documents/mi_cloud_download-master/logs`
+`touch /Users/wangchao/Documents/mi_cloud_download-master/logs/2020-08-23\ 17:03:34.037520.log`
+`/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-web-security`
+
 Quick start:
 - Edit ´http_server.py´, update path to monitored folder
 - Execute ´http_server.py´
